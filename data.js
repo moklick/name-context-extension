@@ -531,6 +531,30 @@ var data = [
     ]
   },
   {
+    'forename': 'Markus',
+    'name': 'Söder',
+    'text': ['der findet, dass in Klassenzimmer \"Kruzifixe und keine Kopftücher\" gehören'],
+    'src': ['http://www.spiegel.de/fotostrecke/markus-soeder-seine-besten-zitate-fotostrecke-155827-3.html']
+  },
+  {
+    'forename': 'Ursula',
+    'name': 'von der Leyen',
+    'text': ['die schon guttenbergte, bevor es in war'],
+    'src': ['http://www.spiegel.de/lebenundlernen/job/ursula-von-der-leyen-darum-darf-sie-ihren-doktortitel-behalten-a-1081520.html']
+  },
+  {
+    'forename': 'Thomas',
+    'name': 'de Maizière',
+    'text': ['bei dem \"ein Teil der Antwort die Bevölkerung verunsichern würde\"'],
+    'src': ['https://www.welt.de/politik/deutschland/article148969193/Ein-Teil-dieser-Antworten-wuerde-die-Bevoelkerung-verunsichern.html']
+  },
+  {
+    'forename': 'Christian',
+    'name': 'Lindner',
+    'text': ['der lieber \"nicht regiert, als falsch zu regieren\"'],
+    'src': ['http://www.zeit.de/politik/deutschland/2017-11/christian-lindner-sondierung-jamaika-abbruch-fdp']
+  },
+  {
     'forename': 'Kay',
     'name': 'Gottschalk',
     'additions': [
