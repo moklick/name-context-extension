@@ -1,4 +1,4 @@
-var data = [
+const data = [
   {
     'forename': 'Björn',
     'name': 'Höcke',
@@ -6,6 +6,14 @@ var data = [
       {
         'text': 'der gute Kontakte zur NPD hat',
         'src': 'https://de.wikipedia.org/wiki/Bj%C3%B6rn_H%C3%B6cke#Vermutete_Autorschaft_in_Zeitschriften_des_NPD-Umfelds'
+      },
+      {
+        'text': 'der Adolf Hitler nicht für "absolut böse" hält',
+        'src': 'https://www.welt.de/politik/deutschland/article162616473/Bjoern-Hoecke-hat-eine-irritierende-Ansicht-zu-Adolf-Hitler.html'
+      },
+      {
+        'text': 'der genetische Unterschiede im Sexualverhalten von Afrikanern und Europäern sieht',
+          'src': 'https://daserste.ndr.de/panorama/aktuell/AfD-Hoeckes-Lehre-von-Menschentypen,hoeckeslehre100.html'
       }
     ]
   },
@@ -15,11 +23,16 @@ var data = [
     'additions': [
       {
         'text': 'der stolz auf die Leistungen deutscher Soldaten im zweiten Weltkrieg ist',
-        'src': 'https://www.buzzfeed.com/marcusengert/afd-spitzenkandidat-gauland-findet-deutsche-sollten-stolz?utm_term=.mdPMqlyw2v#.muP3gEdlzW'
+        'src': 'https://www.buzzfeed.com/marcusengert/afd-spitzenkandidat-gauland-findet-deutsche-sollten-stolz'
       },
       {
         'text': 'der Menschen entsorgen lassen will',
         'src': 'http://www.faz.net/aktuell/politik/bundestagswahl/afd-alexander-gauland-traeumt-von-entsorgung-aydan-oezoguz-15171141.html'
+      },
+      {
+
+        'text': 'laut dem Hitler und die Nazis nur ein "Vogelschiss" in über 1000 Jahren erfolgreicher deutscher Geschichte  seien',
+        'src': 'http://www.fr.de/politik/afd-gauland-bezeichnet-ns-zeit-als-vogelschiss-in-der-geschichte-a-1517107'
       }
     ]
   },
@@ -29,7 +42,15 @@ var data = [
     'additions': [
       {
         'text': 'die Deutschland als "nicht souverän" bezeichnet',
-        'src': 'http://www.zeit.de/politik/deutschland/2017-09/afd-spitzenkandidatin-alice-weidel-email-rechtsradikal'
+        'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
+      },
+      {
+        'text': 'die Regierungsmitglieder als "Marionetten der Siegermächte" bezeichnet',
+        'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
+      },
+      {
+        'text': 'die den unter Nazis beliebten Begriff der "Überfremdung" nutzt',
+        'src': 'https://www.welt.de/politik/article168489086/Alice-Weidel-will-Veroeffentlichung-rassistischer-E-Mail-stoppen.html'
       }
     ]
   },
@@ -50,6 +71,10 @@ var data = [
       {
         'text': 'der Verständnis für den Massenmörder Anders Breivik gezeigt hat',
         'src': 'http://www.tagesspiegel.de/politik/jens-maier-aus-sachsen-afd-politiker-aeussert-verstaendnis-fuer-rechtsterrorist-anders-breivik/19698996.html'
+      },
+      {
+        'text': 'der Noah Becker rasstisch beleidigt hat',
+        'src': 'http://www.zeit.de/politik/deutschland/2018-02/jens-maier-afd-staatsanwaltschaft-ermittlung-tweet'
       }
     ]
   },
@@ -74,6 +99,10 @@ var data = [
       {
         'text': 'der im Bundestag dagegen gestimmt hat, Vergewaltigung in der Ehe unter Strafe zu stellen',
         'src': 'https://twitter.com/renatekuenast/status/685743903442624512?lang=de'
+      },
+      {
+        'text': 'der AIDS-Erkrankte in gesonderten "Wohnprojekten" unterbringen wollte',
+        'src': 'http://www.spiegel.de/spiegel/print/d-13520785.html'
       }
     ]
   },
@@ -112,7 +141,7 @@ var data = [
     'name': 'Nerstheimer',
     'additions': [
       {
-        'text': 'der Homosexuelle als "degenierte Spezies" bezeichnet',
+        'text': 'der Homosexuelle als "degenerierte Spezies" bezeichnet',
         'src': 'https://www.neues-deutschland.de/artikel/1070234.afd-im-abgeordnetenhaus-verschwoerung-und-hass.html'
       }
     ]
@@ -192,6 +221,10 @@ var data = [
       {
         'text': 'der laut einem Münchner Gericht verfassungsfeindliche Bestrebungen zeigt',
         'src': 'http://www.tagesspiegel.de/politik/neue-abgeordnete-das-sind-die-radikalen-in-der-afd-fraktion/20361302.html'
+      },
+      {
+        'text': 'der die Entsorgung von Menschen fordert',
+        'src': 'http://www.faz.net/aktuell/politik/inland/ex-afd-landeschef-petr-bystron-rede-im-gauland-jargon-15310769.html'
       }
     ]
   },
@@ -212,6 +245,10 @@ var data = [
       {
         'text': 'der Vorsitzender des rechtsextremen Vereins Kultur- und Zeitgeschichte, Archiv der Zeit war',
         'src': 'http://www.maz-online.de/Brandenburg/Der-Brandenburger-AfD-Landtagsabgeordnete-Andreas-Kalbitz-geraet-wegen-einer-Mitgliedschaft-in-einem-rechten-Verein-unter-Druck'
+      },
+      {
+        'text': 'der 2007 beim Pfingstlager der rechtsextremen und später verbotenen Heimattreuen Deutschen Jugend war',
+        'src': 'http://www.zeit.de/politik/deutschland/2018-03/andreas-kalbitz-afd-heimattreue-deutsche-jugend-rechtsextremismus'
       }
     ]
   },
@@ -232,6 +269,14 @@ var data = [
       {
         'text': 'der Veranstaltungen mit Neonazis durchführt',
         'src': 'http://www.zeit.de/2016/05/afd-andre-poggenburg-sachsen-anhalt-asylpolitik-wahlkampf'
+      },
+      {
+        'text': 'der Türken in Deutschland als "Kümmelhändler" und "Kameltreiber" bezeichnet',
+        'src': 'http://www.zeit.de/politik/deutschland/2018-02/andre-poggenburg-afd-tuerken-frank-walter-steinmeier'
+      },
+      {
+        'text': 'der "Wucherungen" am "deutschen Volkskörper" loswerden will',
+        'src': 'http://www.deutschlandfunk.de/rede-ueber-linke-studenten-afd-vorstand-befasst-sich-mit.1773.de.html?dram:article_id=379183'
       }
     ]
   },
@@ -341,7 +386,7 @@ var data = [
     'additions': [
       {
         'text': 'der mit zahlreichen Nazis auf Facebook befreundet ist',
-        'src': 'https://www.buzzfeed.com/marcusengert/fast-50-bundestagskandidaten-der-afd-grenzen-sich-nicht-von?utm_term=.puYAXweYRB#.xgj8G3xb7r'
+        'src': 'https://www.buzzfeed.com/marcusengert/fast-50-bundestagskandidaten-der-afd-grenzen-sich-nicht-von'
       },
       {
         'text': 'der enger Weggefährte von Bernd Höcke ist',
@@ -370,6 +415,18 @@ var data = [
       {
         'text': 'der die Kanzlerin als "Merkelnutte" bezeichnet haben soll',
         'src': 'http://www.spiegel.de/politik/deutschland/bundestag-wann-die-afd-beim-gedenken-an-auschwitz-befreiung-nicht-klatschte-a-1190774.html'
+      },
+      {
+        'text': 'der vom "Volkskörper" spricht',
+        'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
+      },
+      {
+        'text': 'der Einwanderung als "Genozid" bezeichnet',
+        'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-e-mail-bringt-afd-mann-in-erklaerungsnot-a-1192686.html'
+      },
+      {
+        'text': 'der das Bundesverfassungsgericht als "Hure Justizia" bezeichnet',
+        'src': 'http://www.spiegel.de/politik/deutschland/peter-boehringer-erneut-schmaeh-e-mail-mit-afd-mann-als-absender-a-1196379.html'
       }
     ]
   },
@@ -396,7 +453,8 @@ var data = [
         'src': 'http://www.tagesspiegel.de/themen/reportage/rechte-vor-einzug-in-den-bundestag-so-extrem-sind-die-kandidaten-der-afd/20350578.html'
       },
       {
-        'text': 'der Mitglied bei der islamfeindlichen Partei "Die Freiheit" war'
+        'text': 'der Mitglied bei der islamfeindlichen Partei "Die Freiheit" war',
+        'src': 'https://www.swr.de/swraktuell/diewahlbeiuns/rp/portraet-sebastian-muenzenmaier-afd-junges-konsens-kandidat/-/id=13075562/did=19140180/nid=13075562/tsun8l/index.html'
       }
     ]
   },
@@ -455,6 +513,14 @@ var data = [
       {
         'text': 'der mit der Rechtsextremen Tatjana Festerling bei Legida zusammenarbeiten wollte',
         'src': 'https://kreuzer-leipzig.de/2016/05/24/wie-viel-pegida-partei-will-die-afd-sein/'
+      },
+      {
+        'text': 'der die "Volksbewaffnung" gegen "Koransprengköpfe" fordert',
+        'src': 'https://www.welt.de/print/die_welt/politik/article170243604/Siegbert-der-Starke-im-AfD-Wunderland.html'
+      },
+      {
+        'text': 'der mit der Hand auf seinem Herzen vor Hitlers Wolfsschanze posierte',
+        'src': 'https://www.facebook.com/photo.php?fbid=1942944496024822&set=pcb.1942945666024705&type=3&theater'
       }
     ]
   },
@@ -537,9 +603,28 @@ var data = [
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Fragwuerdiges-SS-Foto-in-AfD-Chat-verschickt,afd1592.html'
       },
       {
-        'text': 'der Frauen für weniger geeignet für die Politik hält als Männer hält',
+        'text': 'der Frauen für weniger geeignet für die Politik hält als Männer',
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/AfD-Fraktionschef-Maenner-eher-fuer-Politik-gemacht,afd1516.html'
       }
     ]
+  },
+  {
+    'forename': 'Holger',
+    'name': 'Arppe',
+    'additions': [
+      {
+        'text': 'der dafür wirbt, im Fall des Scheiterns der AfD "einen Schrank voller Gewehre und eine Munitionskiste in der Garage" zu haben',
+        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
+      },
+      {
+        'text': 'der die "widerlichen grünen Bolschewisten" eine Grube ausheben, alle rein und Löschkalk oben drauf',
+        'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
+      }
+    ]
   }
+];
+
+const exemptions = [
+  'Wolfgang Petry',
+  'Junge Alternative'
 ];
