@@ -621,6 +621,16 @@ const data = [
         'src': 'https://www.ndr.de/nachrichten/mecklenburg-vorpommern/Rassistische-Chats-Fraktionsvize-verlaesst-AfD,afd1204.html'
       }
     ]
+  },
+  {
+    'forename': 'Herbert',
+    'name': 'Kickl',
+    'additions': [
+      {
+        'text': 'der den Rechtsstaat & die Menschenrechte in Frage stellt',
+        'src': 'https://m.focus.de/politik/ausland/herbert-kickl-oesterreichs-innenminister-stellt-offen-rechtsstaat-und-menschenrechte-in-frage_id_10224361.html'
+      }
+    ]
   }
 ];
 
